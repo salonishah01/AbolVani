@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet"  href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="images/sign.png">
+	<div class="container">
+		<div class="img">
+			<img src="images/undraw_web_browsing_p77h.svg">
+		</div>
+		<div class="login-content">
+			<form name="f1" action = "index.html" onsubmit = "return validation()" method = "POST">
+				<img src="images/undraw_male_avatar_323b.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" id="username" class="input" name="username" required>
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" id="password "class="input" name="password" required>
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+                <a class="btn" type="submit" href="main.html">Login</a>
+                <p> New here? Sign up Now!!</p>
+                <input type="submit" class="btn" value="Sign Up">
+                
+            </form>
+        </div>
+    </div>
+        <script>  
+            function validation()  
+            {  
+                var id=document.f1.username.value;  
+                var ps=document.f1.password.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>  
+</body>
+</html>
