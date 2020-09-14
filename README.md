@@ -38,5 +38,4 @@ The gift of voice has been one of the greatest gifts of god, but we cannot ignor
 
 ![Capture](https://user-images.githubusercontent.com/46890827/93107824-bb582280-f6cf-11ea-9efa-82276292d4a2.PNG)
 
-AMOGHA TS <br>
-SALONI SHAH
+              AMOGHA TS                          SALONI SHAH
