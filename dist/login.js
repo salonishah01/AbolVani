@@ -1,0 +1,1 @@
+<button onclick="document.location='default.asp'">Login</button>
